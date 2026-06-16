@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      id-token: write
+      id-token: write      # REQUIRED for OIDC handshake
       contents: read
 
     steps:
@@ -31,6 +31,5 @@ jobs:
       - name: Pack
         run: dotnet pack -c Release -o out
 
-      - name: Publish to NuGet
-        run: dotnet nuget push "out/*.nupkg" --source "https://api.nuget.org/v3/index.json"
-
+      - name: Publish to NuGet (OIDC)
+        run: dotnet nuget push "out/*.nupkg" --api-key "GitHub" --source "https://api.nuget.org/v3/index.json"
