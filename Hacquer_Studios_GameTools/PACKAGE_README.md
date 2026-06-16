@@ -62,5 +62,8 @@ This project includes a LICENSE.md in the package. See that file for license ter
 
 Support
 -------
-Open issues or feature requests on the GitHub repository: https://github.com/hacquerstudios/Hacquer_Studios_GameTools
+Open issues or feature requests on the GitHub repository:  
+https://github.com/hacquerstudios/Hacquer_Studios_GameTools
+
+If you're new to GitHub, you can create an issue by opening the link above, selecting the **Issues** tab, and choosing **New issue**.
 
