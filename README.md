@@ -7,7 +7,9 @@ A collection of small tools and utilities to support game development workflows.
 - .NET 10 SDK
 - Visual Studio 2022/2026 or another IDE that supports .NET 10
 - Git
+## Usage
 
+for useage see https://github.com/hacquerstudios/Hacquer_Studios_GameTools/blob/develop/Hacquer_Studios_GameTools/PACKAGE_README.md
 ## Quick start
 
 ```powershell
@@ -40,3 +42,4 @@ See LICENSE in the repository root. If none exists, contact the maintainers.
 ## Contact
 
 Open an issue in the repository for questions or support.
+ 
